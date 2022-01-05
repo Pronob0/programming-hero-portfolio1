@@ -59,11 +59,29 @@ font-size:50px;
     font-size: 50px;
     margin-left: 30px;
 }
-.sec-h1{
-    font-size:30px;
+.experience-box h1{
+    font-size: 30px;
+}
+.experience-box h3{
+    color: #db8a3f;
 }
 .experience-box{
     box-shadow: 5px 7px 40px gray;
     padding-left: 2%;
     width: 40%;
+    padding-bottom: 6%;
+    margin-bottom: 10%;
+}
+.box-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 30;
+}
+.box-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(123, 173, 240), rgb(18, 86, 247));
+    border-image-slice: 30;
+}
+footer p{
+    text-align: center;
 }
